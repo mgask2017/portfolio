@@ -1,0 +1,238 @@
+/* ==== GENERAL ==== */
+
+body {
+	margin-top: 50px;
+	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+	font-size: 16px;
+	/*background: url('../img/tile.jpg') top left repeat;*/
+}
+
+/* ==== GLOBAL ==== */
+
+h1,h2,h3,h4,h5,h6 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h1,h2 {
+	margin: 0 0 40px;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+p.lead {
+	text-align: center;
+	font-weight: normal;
+}
+
+p {
+	margin: 0 0 15px;
+}
+
+.description {
+	color: #676b65;
+}
+
+a:link, a:visited {
+	color: #dd5638;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #c9302c;
+}
+
+button, input, .btn, a.btn {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	color: white;
+}
+
+.btn {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn-success {
+	background: #79b044;
+	border: none;
+}
+
+.btn-success:hover {
+	background: #6a9b3d;
+	border-color: #6a9b3d;
+}
+
+.btn-danger {
+	background-color: #dd5638;
+	border-color: #d95131;
+}
+
+.text-danger, li.text-danger a {
+	color: #dd5638;
+}
+
+a.text-danger:hover {
+	color: #e55939;
+}
+
+section {
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+
+/* ==== HERO ==== */
+
+#hero {
+	background: url('../img/hero.png') 50% 0 repeat fixed;
+	min-height: 500px;
+	position: relative;
+	display: table;
+	width: 100%;
+	padding: 40px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+.main-title {
+	text-align: center; /*Positions the title centre*/
+	position: absolute;
+	top:20%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.sub-title{
+	top:55%;
+}
+
+#hero-red-btn {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	-webkit-transform: translateX(-50%); /*Positions the button centre*/
+	transform: translateX(-50%);	
+}
+
+/* ==== About ==== */
+
+.section-header {
+	text-align: center;	
+}
+
+#profile-pic {
+	padding-bottom: 10px;
+	height: 110px;
+	width: 100px;
+}
+
+/* ==== My Work ==== */
+
+.work {
+	background-color: #d3d3d3;
+	text-align: center;
+}
+
+/* =====Testimonials =====*/
+
+.testimonials {
+	background: url('../img/tile.jpg') top left repeat;
+}
+
+.testimonal-pic {
+	height: 50px;
+	width: 50px;
+}
+
+blockquote {
+	text-decoration-style: 
+}
+
+/* =====Technologies =====*/
+
+#technologies {
+	text-align: center;
+}
+
+#tech-icons {
+	padding-top: 10px;
+}
+
+/* =====Contact Form Animation =====*/
+
+.animated.flip {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-animation-name: flip;
+  animation-name: flip;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+/* ======== FOOTER ==========*/
+
+footer {
+	background: #3e4249;
+	color: white;
+	padding: 20px 0 10px;
+	font-size: 12px;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer a:link, footer a:visited {
+	color: white;
+}
+
+footer a:hover {
+	color: #dd5638;
+}
+
+footer li.signup-link a {
+	color: #dd5638;
+}
+
+footer li.signup-link a:hover {
+	font-weight: bold;
+}
+
+.list-inline {
+	display: inline-flex;
+}
+
+.footer-links {
+	padding-right: 8px;
+}
+
+.pull-right {
+	float: right;
+}
